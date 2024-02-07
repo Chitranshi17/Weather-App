@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container-fluid{
+    height: 100vh;
+    /* background-image:url(https:/source.unsplash.com/random/flower) */
+    /* background-image: url(https:/); */
+    /* background: linear-gradient(blue, rgb(255, 255, 255)); */
+    background: url("./Img/Bg.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar{
+    background-color: black;
+}
+.main-sec{
+    height: 85vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/* Left */
+.left{
+    width: 37%;
+    height: 100%;
+    /* background-color: rgba(255, 255, 0, 0.308); */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+form{
+    width: 95%;
+    height: 10%;
+}
+.form-span{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-span input{
+    width: 70%;
+    height: 5rem;
+    border-radius: 0rem;
+    padding-left: 2rem;
+    font-size: 2rem;
+}
+.form-span button{
+    width: 30%;
+    height: 5rem;
+    border-radius: 0rem;
+    font-size: 1.5rem;
+}
+.card-c{
+    width: 95%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.265);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.card-c h1{
+    font-size: 5.5rem;
+    color: white;
+}
+.card-c h2{
+    color: whitesmoke;
+}
+.card-c h5{
+    color: rgb(209, 208, 208);
+}
+.card-c h6{
+    color: white;
+}
+.air-condition{
+    width: 95%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.265);
+}
+.air-condition h5{
+    height: 20%;
+    color: white;
+}
+.card-air{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.air-card{
+    width: 24%;
+    height: 90%;
+    background-color: rgba(174, 173, 173, 0.329);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 1.2rem;
+    box-shadow: 0rem 0rem .4rem black;
+}
+.air-card p{
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+.air-card h5{
+    font-size: 1.8rem;
+    color: white;
+}
+
+
+
+
+@media (max-width: 860px) {
+    html{
+        font-size: 40%;
+    }
+    .left{
+        width: 60%;
+    }
+}
+
+@media (max-width: 450px) {
+    html{
+        font-size: 30%;
+    }
+    .left{
+        width: 80%;
+    }
+}
+
+
+

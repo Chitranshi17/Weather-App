@@ -49,16 +49,17 @@ form{
 }
 .form-span input{
     width: 70%;
-    height: 5rem;
+    height: 70%;
     border-radius: 0rem;
     padding-left: 2rem;
     font-size: 2rem;
 }
 .form-span button{
     width: 30%;
-    height: 5rem;
+    height: 70%;
     border-radius: 0rem;
-    font-size: 1.5rem;
+    font-size:2rem;
+    border: none;
 }
 .card-c{
     width: 95%;
@@ -74,6 +75,7 @@ form{
     color: white;
 }
 .card-c h2{
+    font-size: 3rem;
     color: whitesmoke;
 }
 .card-c h5{
@@ -111,7 +113,8 @@ form{
 }
 .air-card p{
     color: whitesmoke;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .air-card h5{
     font-size: 1.8rem;
@@ -136,6 +139,13 @@ form{
     }
     .left{
         width: 80%;
+    }
+    .card-c{
+        height: 30%;
+    }
+    .air-card{
+        height: 60%;
+        border: none;
     }
 }
 

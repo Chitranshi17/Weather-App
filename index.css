@@ -52,13 +52,13 @@ form{
     height: 70%;
     border-radius: 0rem;
     padding-left: 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 .form-span button{
     width: 30%;
     height: 70%;
     border-radius: 0rem;
-    font-size:2rem;
+    font-size: 1.8rem;
     border: none;
 }
 .card-c{
@@ -91,6 +91,7 @@ form{
 }
 .air-condition h5{
     height: 20%;
+    font-size: 1.2rem;
     color: white;
 }
 .card-air{
@@ -120,18 +121,23 @@ form{
     font-size: 1.8rem;
     color: white;
 }
+.air-condition h5{
+    font-size: 1.8rem;
+}
 
 
 
 
-@media (max-width: 860px) {
+@media (max-width: 850px) {
     html{
         font-size: 40%;
     }
     .left{
         width: 60%;
+        height: 80%;
     }
 }
+
 
 @media (max-width: 400px) {
     html{
@@ -141,9 +147,13 @@ form{
         width: 80%;
     }
     .card-c{
-        height: 30%;
+        height: 40%;
+    }
+    .card-air{
+        flex-wrap:  wrap;
     }
     .air-card{
+        width: 50%;
         height: 60%;
         border: none;
     }

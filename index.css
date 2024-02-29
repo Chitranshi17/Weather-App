@@ -11,7 +11,7 @@ html{
     /* background-image:url(https:/source.unsplash.com/random/flower) */
     /* background-image: url(https:/); */
     /* background: linear-gradient(blue, rgb(255, 255, 255)); */
-    background: url("./Img/Bg.gif");
+    background: url("/Img/bg-new.avif");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
